@@ -1,0 +1,16 @@
+{
+  "name": "local-lead-sites",
+  "version": "1.0.0",
+  "description": "High-converting local business lead websites (Dentist, Plumber, Lawyer) with service-area pages, lead forms, sticky CTAs and Schema.org SEO.",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "validate": "node build.js && node validate.js",
+    "serve": "node serve.js",
+    "start": "node build.js && node serve.js",
+    "dev": "node build.js && node serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
